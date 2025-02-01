@@ -9,8 +9,8 @@ public class sumofdigit {
         n = sc.nextInt();
         while (n != 0) 
         {
-            sum += n % 10;
-            n /= 10;
+            sum= sum + n%10;
+            n= n/10;
         }
         System.out.println("Sum of digits is: " + sum);
         sc.close();
