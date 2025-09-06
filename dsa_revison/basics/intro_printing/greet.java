@@ -1,4 +1,4 @@
-package dsa_revison.basics;
+package dsa_revison.basics.intro_printing;
 
 import java.util.Scanner;
 public class greet {
