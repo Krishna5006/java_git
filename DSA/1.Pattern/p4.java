@@ -1,19 +1,17 @@
-//Right half pyramid up to down
+// number increasing pattern
 import java.util.Scanner;
-
-class p3
+class p4
 {
     public static void main(String args[])
     {
-        int n;
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter size of pyramid:");
-        n=sc.nextInt();
+        System.out.print("Enter pyramind size:");
+        int n=sc.nextInt();
         for (int i=1;i<=n;i++)
         {
-            for (int j=n;j>=i;j--)
+            for (int j=1;j<=i;j++)
             {
-                System.out.print("*");
+                System.out.print(j);
             }
             System.out.println("");
         }

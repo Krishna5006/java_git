@@ -1,4 +1,4 @@
-//right half pyramid
+//right half pyramid down to up 
 import java.util.Scanner;
 
 class p2
