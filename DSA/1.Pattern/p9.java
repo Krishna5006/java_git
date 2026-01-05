@@ -31,5 +31,6 @@ class p9
             }
             System.out.println("");
         }        
+        sc.close();
     }
 }
