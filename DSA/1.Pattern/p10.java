@@ -37,5 +37,6 @@ class p10
             }
             System.out.println("");
         }
+        sc.close();
     }
 }
