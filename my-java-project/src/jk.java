@@ -15,7 +15,7 @@ class BankAccount {
 
     // Method to withdraw money
     public void withdraw(double amount) {
-        if (amount <= balance)&& (amount>0){
+        if (amount <= balance && amount>0){
             balance -= amount;
             System.out.println("Withdrawn: $" + amount);
         } else {

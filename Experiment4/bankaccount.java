@@ -1,11 +1,11 @@
 package Experiment4;
 
-private class bankaccount {
+class bankaccount {
     double amount;
 
-    public deposit(double amount)
+    public double deposit(double amount)
     {
         this.amount=1000;
-
+        return amount;
     }
 }
