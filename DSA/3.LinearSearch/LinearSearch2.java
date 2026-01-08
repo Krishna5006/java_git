@@ -1,29 +1,29 @@
 import java.util.*;
 
-public class LinearSearch {
+public class LinearSearch2{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int target=9;
+        int target=91;
         int[] arr={11,2,313,53,47,124,61,3,51,16,2,9};
-        int ans=LinearSearchFunction(arr, target);
+        boolean ans=LinearSearchFunction(arr, target);
         System.err.println(ans);
         sc.close();
     }
 
-    //search in the array:return index no if item found else return -1 
-    static int LinearSearchFunction(int[] arr,int target)
+    //search in the array:return true if item found else return false 
+    static boolean LinearSearchFunction(int[] arr,int target)
     {
         if (arr.length==0)
-            return -1;
+            return false;
 
         for (int i=0 ;i<arr.length;i++)
         {
             int element=arr[i];
             if (element==target)
             {
-                return i;
+                return true;
             }
         }
-        return -1;
+        return false;
     }
 }
