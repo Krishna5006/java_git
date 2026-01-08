@@ -14,5 +14,6 @@ class p6
                 
             }
         }
+        sc.close();
     }
 }

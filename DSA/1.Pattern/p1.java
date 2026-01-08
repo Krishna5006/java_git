@@ -17,5 +17,6 @@ class p1
             }
             System.out.println("");
         }
+        sc.close();
     }
 }

@@ -23,5 +23,6 @@ class p8
             }
             System.out.println("");
         }
+        sc.close();
     }
 }

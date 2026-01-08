@@ -15,5 +15,6 @@ class p4
             }
             System.out.println("");
         }
+        sc.close();
     }
 }
