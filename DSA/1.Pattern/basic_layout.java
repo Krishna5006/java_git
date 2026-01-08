@@ -14,5 +14,6 @@ class basic_layout
 
             }
         }
+        sc.close();
     }
 }

@@ -23,5 +23,6 @@ class p5
             }
             System.out.println("");
         }
+        sc.close();
     }
 }
