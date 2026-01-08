@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LinearSearch {
+public class LinearSearch3{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int target=9;
@@ -10,7 +10,7 @@ public class LinearSearch {
         sc.close();
     }
 
-    //search in the array:return index no if item found else return -1 
+    //search in the array:return index if item found else return -1 
     static int LinearSearchFunction(int[] arr,int target)
     {
         if (arr.length==0)
@@ -21,7 +21,7 @@ public class LinearSearch {
             int element=arr[i];
             if (element==target)
             {
-                return i;
+                return element;
             }
         }
         return -1;
