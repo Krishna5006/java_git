@@ -1,4 +1,3 @@
-package DSA.AMCAT;
 import java.util.*;
 public class c1
 {
