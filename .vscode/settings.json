@@ -1,3 +1,11 @@
 {
-    "java.debug.settings.onBuildFailureProceed": true
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "DSA/AMCAT",
+        "DSA/4.BinarySearch",
+        "DSA/3.LinearSearch",
+        "DSA/2.Arrays/2Darray",
+        "DSA/1.Pattern",
+        "DSA/8.recursion"
+    ]
 }
